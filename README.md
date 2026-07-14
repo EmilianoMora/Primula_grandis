@@ -5,7 +5,7 @@ For script regarding the genome assembly, genome scaffolding, gene annotation an
 
 # Preprocessing of population genetic analyses
 
-1) Trimming of short-read sequences with [Trimmomatic](https://github.com/usadellab/Trimmomatic).
+1) Trimming of short-read sequences with [Trimmomatic](https://github.com/usadellab/Trimmomatic). [Link here](/trimmomatic.md).
 2) Mapping to reference genome with [BWA](https://github.com/lh3/BWA).
 3) Variant calling with [BCFtools](https://github.com/samtools/bcftools).
 
