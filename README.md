@@ -3,8 +3,14 @@ This github repository contains the bioinformatic scripts to perform all the pop
 
 For script regarding the genome assembly, genome scaffolding, gene annotation and transposable elements annotation, please contact [Dr. Narjes Yousefi](mailto:narjes.yousefi2@uzh.ch).
 
-## Genomic analyses
+# Preprocessing of population genetic analyses
 
-1) Subgenome characterization.
+1) Trimming of short-read sequences with [Trimmomatic](https://github.com/usadellab/Trimmomatic).
+2) Mapping to refernece genome with [BWA](https://github.com/lh3/BWA).
+3) Variant calling with [BCFtools](https://github.com/samtools/bcftools).
+
+## Genomic analyses results
+
+1) [Subgenome characterization](subphaser.md) (Figure 2b).
 2) 
 All necessary file to perfom downstream analyses including the reference genome, genome annotation and filtered VCF files can be found in [figshare](https://figshare.com/articles/journal_contribution/Evolutionary_history_of_i_Primula_grandis_i_/28540910)
