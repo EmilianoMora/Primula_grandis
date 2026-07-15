@@ -113,3 +113,34 @@ $TABIX -p vcf $OUTPUT_4
 
 #$VCFTOOLS --gzvcf $OUTPUT_4 --het --out het/$NUM.b
 ```
+# Concatenate all filtered VCF file sinto one
+```sh
+#!/bin/bash
+#SBATCH --job-name=EM_gatk_filter
+#SBATCH --error ./logs/concatenate_vcf.%j.err
+#SBATCH --out ./logs/concatenate_vcf.%j.out
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --time=500:00:00
+#SBATCH --mem-per-cpu=3800
+#SBATCH --nice=0
+#SBATCH --partition=main
+
+BCFTOOLS=/home/ubuntu/executables/bcftools-1.8/bcftools
+VCFTOOLS=/home/ubuntu/executables/vcftools/src/cpp/vcftools
+BGZIP=/home/ubuntu/executables/htslib/bgzip
+TABIX=/home/ubuntu/executables/htslib/tabix
+
+#Concatenate all the chromosomes into one VCF file.
+
+$BCFTOOLS concat -f list_chr.txt -Oz --threads $SLURM_CPUS_PER_TASK > pgrandis_concat.vcf.gz
+$TABIX -p vcf pgrandis_concat.vcf.gz
+
+#Concatenate per subgenome. This one ends up with a VCF file of all samples for each chromosome
+
+$BCFTOOLS concat -f list_chr_subgen_A.txt -Oz --threads $SLURM_CPUS_PER_TASK > pgrandis_concat_subgen_A.vcf.gz
+$TABIX -p vcf pgrandis_concat_subgen_A.vcf.gz
+
+$BCFTOOLS concat -f list_chr_subgen_B.txt -Oz --threads $SLURM_CPUS_PER_TASK > pgrandis_concat_subgen_B.vcf.gz
+$TABIX -p vcf pgrandis_concat_subgen_B.vcf.gz
+```
