@@ -8,7 +8,7 @@ For script regarding the genome assembly, genome scaffolding, gene annotation an
 1) Trimming of short-read sequences with [Trimmomatic](https://github.com/usadellab/Trimmomatic). [Here](/trimmomatic.md).
 2) Mapping to reference genome with [BWA](https://github.com/lh3/BWA). [Here](/bwa.md).
 3) Variant calling with [BCFtools](https://github.com/samtools/bcftools). [Here](/bcftools.md).
-4) Filtering of VCF filewith VCFtools and BCFtools. [Here]().
+4) Filtering of VCF file with VCFtools and BCFtools. [Here](/vcftools.md).
 
 ## Genomic analyses results
 
