@@ -1,5 +1,5 @@
 # Direction of Selection (DoS)
-Finally, we estimated strength and Direction of Selection (DoS) of all genes across the genome based on the McDonald-Kreitman (MK) test using the script degenotate.py (https://github.com/harvardinformatics/degenotate). This approach allowed us to estimate the strength of positive and purifying selection of each gene and determine whether there are differences among the polyploid, selfing P. grandis and the diploid, heterostylous species of Primula sect. Primula. For this analysis, six individuals of P. veris were used as outgroup.
+Finally, we estimated strength and Direction of Selection (DoS) of all genes across the genome based on the McDonald-Kreitman (MK) test using the script [degenotate.py](https://github.com/harvardinformatics/degenotate). This approach allowed us to estimate the strength of positive and purifying selection of each gene and determine whether there are differences among the polyploid, selfing _P. grandis_ and the diploid, heterostylous species of _Primula_ sect. _Primula_. For this analysis, six individuals of _P. veris_ were used as outgroup.
 ```sh
 VCF=/home/ubuntu/emiliano/4th_chp/4_variant_calling/other_primula/subgenome_A/filtering/merge_grandis/merged_allpops_OGs.a.vcf.gz
 REF=/home/ubuntu/emiliano/p_grandis_ref_genome/out_JBAT_review4.FINAL_rename.fasta
