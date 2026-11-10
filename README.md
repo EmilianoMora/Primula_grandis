@@ -14,5 +14,5 @@ For script regarding the genome assembly, genome scaffolding, gene annotation an
 ## Genomic analyses results
 
 1) [Subgenome characterization](subphaser.md) (Figure 2b).
-2) 
-All necessary file to perfom downstream analyses including the reference genome, genome annotation and filtered VCF files can be found in [figshare](https://figshare.com/articles/journal_contribution/Evolutionary_history_of_i_Primula_grandis_i_/28540910)
+2) [Analysis of Direction of Selection (DoS)](direction_of_selection.md). (Figure F).
+All necessary file to perfom downstream analyses including the reference genome, genome annotation and filtered VCF files can be found in [figshare](https://figshare.com/articles/journal_contribution/Evolutionary_history_of_i_Primula_grandis_i_/28540910).
