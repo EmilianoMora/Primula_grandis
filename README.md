@@ -9,6 +9,7 @@ For script regarding the genome assembly, genome scaffolding, gene annotation an
 2) Mapping to reference genome with [BWA](https://github.com/lh3/BWA). [Here](/bwa.md).
 3) Variant calling with [BCFtools](https://github.com/samtools/bcftools). [Here](/bcftools.md).
 4) Filtering of VCF file with [VCFtools](https://vcftools.github.io/index.html) and BCFtools. [Here](/vcftools.md).
+5) Population genetic analyses. [Here](population_genomic_analyses.md).
 
 ## Genomic analyses results
 
