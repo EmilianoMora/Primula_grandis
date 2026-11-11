@@ -14,7 +14,8 @@ For script regarding the genome assembly, genome scaffolding, gene annotation an
 ## Genomic analyses results
 
 1) [Subgenome characterization](subphaser.md) (Figure 2b).
-2) [Estimation of synonymous and non-synonymous divergence](genomic_divergence.md). (Figure 2C).
-3) [Analysis of Direction of Selection (DoS)](direction_of_selection.md). (Figure 5).
+2) [Estimation of synonymous and non-synonymous divergence](genomic_divergence.md). (Figure 2d).
+3) [Phylogenetic analysis of _Primula_ sect. _Primula_](phylogenetic_analysis.md). (Figure 2d).
+4) [Analysis of Direction of Selection (DoS)](direction_of_selection.md). (Figure 5).
 
 All necessary file to perfom downstream analyses including the reference genome, genome annotation and filtered VCF files can be found in [figshare](https://figshare.com/articles/journal_contribution/Evolutionary_history_of_i_Primula_grandis_i_/28540910).
